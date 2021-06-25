@@ -1,0 +1,19 @@
+<mat-card class="example-card">
+  <div class="image-container">
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  </div>
+  <mat-card-content>
+  <div class="stars">
+  <div *ngFor="let rate of rating">
+  <app-star></app-star>
+  </div>
+  <div class="price">160$</div>
+  </div>
+  <h1  class="title">Heading</h1>
+
+  <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, iste.</p>
+  <div class="reviews">reviews(25)</div>
+  </mat-card-content>
+  <mat-card-actions>
+  </mat-card-actions>
+</mat-card>

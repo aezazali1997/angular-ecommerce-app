@@ -1,0 +1,42 @@
+.example-card{
+  width: 300px;
+  background-color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 10px;
+}
+.image-container{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 300px;
+}
+img{
+  width: 100%;
+  display: block;
+}
+mat-card-content{
+  color:black;
+}
+.stars{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.price{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.title{
+  text-align: left;
+  margin: 10px 0 0 5px;
+}
+.description{
+  text-align: left;
+  margin-left: 5px;
+}
+.reviews{
+  text-align: left;
+}

@@ -1,0 +1,43 @@
+ $size:0.9rem;
+$icon-top-space:10px;
+.spacer{
+  flex:1 1 auto;
+}
+mat-toolbar-row{
+  padding: 0 3rem;
+  font-size: $size;
+  width: auto;
+}
+mat-icon{
+  font-size: $size;
+  text-align: center;
+  margin-top: $icon-top-space;
+  margin-left: .5rem;
+  margin-right: .2rem;
+}
+.list-container{
+  margin: auto;
+  li
+  {
+  display: inline-block;
+  margin-inline:1rem;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: all .3s ease-in-out;
+    &:hover{
+      color:rgb(212, 212, 212);
+    }
+  }
+  }
+  }
+@media screen and (max-width:668px) {
+.list-container{
+ display: none;
+}
+mat-toolbar-row{
+  margin: auto;
+}
+}
